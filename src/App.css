@@ -1,0 +1,37 @@
+.app {
+  max-width: 700px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.search input{
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid rgb(138, 200, 147);
+  border-radius: 3px;
+}
+
+.search button {
+  width: 100px;
+  padding: 8px 16px;
+  background-color: rgb(10, 97, 10);
+  color: white;
+  border: 1px solid rgb(3, 64, 3);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-error {
+  color: red;
+  padding: 5px 20px;
+}
