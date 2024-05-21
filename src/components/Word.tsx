@@ -6,7 +6,7 @@ const Word = ({word}: {word: WordData}) => {
         {word.meanings.map((meaning, mIndex) => {
             return <div key={"meaning"+ mIndex}>
                 <h3>{meaning.partOfSpeech}</h3>
-                <p>{meaning.definitions[0].definition}</p>
+                <p>Definition: {meaning.definitions[0].definition}</p>
             </div>;
         })}
         <h3>Pronunciations</h3>

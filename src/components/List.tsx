@@ -5,8 +5,8 @@ const List = ({ words }: { words: WordData[] | null; }) => {
     if(!words) return null;
 
     return <div className="word-list">
-        {words.map((word) => {
-            return  <Word word={word} />
+        {words.map((word, index) => {
+            return  <Word word={word} key={'word' + index} />
         })}
     </div>
 }
